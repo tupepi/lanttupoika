@@ -11,6 +11,7 @@
     "dependencies": {
         "discord.js": "^13.6.0",
         "dotenv": "^16.0.0",
-        "feedparser": "^2.2.10"
+        "feedparser": "^2.2.10",
+        "rss-parser": "^3.12.0"
     }
 }
