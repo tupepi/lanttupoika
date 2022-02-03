@@ -59,6 +59,7 @@ module.exports = {
     name: 'ruokat',
     description: 'Komento antamaan KAIKKI opiskelijaravintojen ruokalistat.',
     async execute(message, args) {
+        message.channel.send('Oho, ootas hetki');
         var palautus = '';
         for (let r of ravintolat_t) {
             let url = r.url;
