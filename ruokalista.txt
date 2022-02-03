@@ -1,0 +1,216 @@
+PIATO
+
+KASVISLOUNAS:
+Kikherne-bataattipataa (* ,A ,G ,L ,M ,Veg ,VS)
+Höyrytettyä tummaa riisiä (* ,G ,L ,M ,Veg)
+
+LOUNAS:
+Broileri-fetapizzaa BBQ (A ,VL ,VS)
+
+PAISTOPISTE:
+Porsaan grillipihvi (* ,G ,L ,M)
+Pippurikastiketta (A ,G ,L)
+Porkkana-perunasosetta (A ,G ,L)
+
+JÄLKIRUOKA:
+Hedelmärahkaa (A ,G ,L)
+
+
+---------------------------------
+MAIJA
+
+KASVISLOUNAS:
+Kikherneitä ja kasviksia kormakastikkeessa (* ,A ,G ,L ,VS)
+Höyrytettyä tummaa riisiä (* ,G ,L ,M ,Veg)
+
+LOUNAS:
+Jauheliha-makaronilaatikkoa (A ,L)
+
+LOUNAS:
+Naudanlihaa ja kasviksia kiinalaisittain (A ,G ,L ,M ,VS)
+
+KEITTOLOUNAS:
+Kirjolohi-seitikeittoa (* ,A ,G ,L)
+
+JÄLKIRUOKA:
+Jälkiruokapöytä ()
+
+
+---------------------------------
+TILIA
+
+KASVISLOUNAS:
+Kikherneitä ja kasviksia kormakastikkeessa, saatavana myös vegaanisena (* ,A ,G ,L ,VS)
+Höyrytettyä tummaa riisiä (* ,G ,L ,M ,Veg)
+
+LOUNAS:
+Naudanlihaa ja kasviksia kiinalaisittain (A ,G ,L ,M ,VS)
+Höyrytettyä tummaa riisiä (* ,G ,L ,M ,Veg)
+
+KEITTOLOUNAS:
+Kirjolohi-seitikeittoa (* ,A ,G ,L)
+
+LINJASTO A´LA CARTE:
+Vuohenjuustolla täytettyä broileria (A ,G ,VL)
+Päärynäkermaviilikastiketta (A ,G ,L)
+Yrttimaustettuja viipaleperunoita (A ,G ,L ,M ,Veg)
+
+
+
+JÄLKIRUOKA:
+Omena-kaurapiirakkaa (A ,L)
+Kanelikermavaahtoa (A ,G ,L)
+
+
+---------------------------------
+LOZZI
+
+VEGAANINEN KASVISLOUNAS:
+Kikherne-bataattipataa (* ,A ,G ,L ,M ,Veg ,VS)
+
+LOUNAS:
+Savukirjolohikastiketta (* ,A ,G ,L)
+Luomutäysjyväpennepastaa (* ,A ,L ,M ,Veg)
+
+KEITTOLOUNAS:
+Broileri-nuudelikeittoa (* ,A ,L ,M)
+
+JÄLKIRUOKA:
+Hedelmärahkaa (A ,G ,L)
+
+
+---------------------------------
+BELVEDERE
+
+Keittolounas:
+Kirjolohi-seitikeittoa (* ,A ,G ,L)
+
+
+---------------------------------
+SYKE
+
+KASVISLOUNAS:
+Kikherneitä ja kasviksia kormakastikkeessa (* ,A ,G ,L ,VS)
+Höyrytettyä tummaa riisiä (* ,G ,L ,M ,Veg)
+
+LOUNAS:
+Jauheliha-makaronilaatikkoa (A ,L)
+
+KEITTOLOUNAS:
+Kirjolohi-seitikeittoa (* ,A ,G ,L)
+
+
+---------------------------------
+UNO
+
+KASVISLOUNAS:
+Kikherneitä ja kasviksia kormakastikkeessa (* ,A ,G ,L ,VS)
+Höyrytettyä tummaa riisiä (* ,G ,L ,M ,Veg)
+
+KASVISLOUNAS:
+Vegaanista papu-bataattipaistosta
+ (* ,A ,G ,L ,M ,Veg ,VS)
+
+KEITTOLOUNAS:
+Kirjolohi-seitikeittoa (* ,A ,G ,L)
+
+PAISTOPISTE:
+Aurajuusto-ananastäytteinen broilerinfileetasku (* ,A ,G ,L)
+Bearnaisekastiketta (A ,G ,L)
+Paahdettuja perunoita (G ,L ,M ,Veg)
+
+
+---------------------------------
+YLISTÖ
+
+KASVISLOUNAS:
+Talon juurespihvejä (* ,A ,G ,L ,M ,VS)
+
+VEGAANINEN KASVISKEITTO:
+Kasvis-hernekeittoa (A ,L ,M ,Veg)
+Hienonnettua sipulia (* ,G ,L ,M ,Veg)
+
+LOUNAS:
+Kalkkuna-kasviskiusausta (* ,A ,G ,L)
+
+KEITTOLOUNAS:
+Hernekeittoa (* ,A ,L ,M)
+Hienonnettua sipulia (* ,G ,L ,M ,Veg)
+
+JÄLKIRUOKA:
+Pannukakkua (A ,L)
+Mansikkahilloa (G ,L ,M ,Veg)
+Kermavaahtoa (A ,G ,L)
+
+
+---------------------------------
+KVARKKI
+
+Ei ruokalistaa saatavilla
+---------------------------------
+RENTUKKA
+
+VEGAANINEN KASVISLOUNAS:
+Tomaattista täysjyvävehnää (A ,L ,Veg)
+
+KASVISLOUNAS:
+Tomaattista täysjyvävehnää (A ,L ,Veg)
+Puolukkahilloa (G ,L ,M ,Veg)
+
+LOUNAS:
+Tonnikala-pinaattilasagnettea (A ,L)
+
+PAISTOPISTE:
+Paahdettua broileria sekä currylla maustettua kukkakaalia ja kikherneitä (G ,L ,M)
+Täysjyvävehnää (* ,A ,L ,Veg)
+
+JÄLKIRUOKA:
+Mustikkarahkaa (A ,G ,L)
+
+
+---------------------------------
+NOVELLI
+
+Ei ruokalistaa saatavilla
+---------------------------------
+TAIDE
+
+Kasvislounas:
+Kasviskiusausta (* ,A ,G ,L ,M ,Veg)
+
+Lounas:
+Jauheliha-makaronilaatikkoa (A ,L)
+Tomaattiketsuppia (G ,L ,M ,Veg)
+
+Lounas:
+Saksanhirvi-juurespataa (* ,G ,L ,M)
+Perunasosetta (* ,A ,G ,L)
+
+
+
+Jälkiruoka:
+Vegaanista kaurapannukakkua (A ,L ,M ,Veg)
+Kauravaahtoa (A ,G ,L ,M ,Veg)
+
+
+---------------------------------
+FIILU
+
+Kasvis-vehnärisottoa ja tofua (* ,A ,L ,Veg)
+
+Lounas:
+Maissipaneroitua broileria (A ,L ,M)
+Currymajoneesia (A ,G ,L ,M ,Veg)
+Paahdettua perunaa (* ,G ,L ,M ,Veg)
+
+Lounas:
+Karjalanpaistia (* ,G ,L ,M)
+Perunasosetta (* ,A ,G ,L)
+
+Kauden kasviksia (G ,L ,M ,Veg)
+
+Jälkiruoka:
+Mokkapala (A ,VL)
+
+
+---------------------------------
