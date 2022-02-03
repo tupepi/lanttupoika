@@ -53,18 +53,7 @@ const ravintolat_t = [
   },
 ];
 
-const annaRavintola = (url) => {
-  let Parser = require("rss-parser");
-  let parser = new Parser();
-
-  (async () => {
-    let feed = await parser.parseURL(url);
-    let ravintolan_nimi = feed.title;
-    let ruokalista = feed.items[0].content.replaceAll("<br>", "");
-    console.log(ruokalista);
-    return ruokalista;
-  })();
-};
+let Parser = require("rss-parser");
 
 module.exports = {
   name: "ruoka",
@@ -86,7 +75,6 @@ module.exports = {
       return;
     }
 
-    let Parser = require("rss-parser");
     let parser = new Parser();
     (async () => {
       let feed = await parser.parseURL(url);
