@@ -7,9 +7,9 @@ module.exports = {
     let palautus = new Date(2022, 4, 30, 23, 59, 59, 999);
     lopputulos = palautus - nyt;
     let paivat = Math.floor(lopputulos / 86400000);
-    let tunnit = Math.floor(lopputulos - (paivat * 86400000) / 3600000);
+    let tunnit = Math.floor((lopputulos - paivat * 86400000) / 3600000);
     let minuutit = Math.floor(
-      lopputulos - (paivat * 86400000 + tunnit * 3600000) / 60000
+      (lopputulos - (paivat * 86400000 + tunnit * 3600000)) / 60000
     );
     let sekunnit = Math.floor(
       (lopputulos - (paivat * 86400000 + tunnit * 3600000 + minuutit * 60000)) /
