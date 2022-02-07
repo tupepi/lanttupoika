@@ -23,7 +23,7 @@ module.exports = {
         sekunnit * 1000
     );
     message.channel.send(
-      `Päivät: ${paivat},\nTunnit: ${tunnit},\nMinuutit: ${minuutit},\nSekuntit: ${sekunnit},\nMillisekuntit:${millisekunnit}.`
+      `Päivät: ${paivat},\nTunnit: ${tunnit},\nMinuutit: ${minuutit},\nSekuntit: ${sekunnit},\nMillisekuntit: ${millisekunnit}.`
     );
   },
 };
