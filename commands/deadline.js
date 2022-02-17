@@ -4,7 +4,7 @@ module.exports = {
     description:
         'Palauttaa millisekunnilleen jäljellä olevan ajan, ennen tuomionpäivää',
     execute(message, args) {
-        let palautus = new Date(2022, 4, 30, 23, 59, 59, 999);
+        let palautus = new Date(2022, 3, 30, 23, 59, 59, 999);
         const aikaa = laske_deadline(palautus);
         let paivat = aikaa.paivat;
         let tunnit = aikaa.tunnit;

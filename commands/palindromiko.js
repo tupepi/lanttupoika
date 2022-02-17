@@ -1,6 +1,6 @@
 module.exports = {
   name: "palindromiko",
-  description: "Konsta eka prokkis",
+  description: "Tarkistaa annettu argumentti palindromi",
   execute(message, args) {
 
     //Tarkistaa onko käyttäjä ollut idiootti ja eikä tajunnut antaa argumenttia
