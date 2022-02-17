@@ -2,11 +2,11 @@ module.exports = {
     name: 'parita',
     description:
         'Laittaa annetut nimet arvotuiksi pariksi.' +
-        'Esim. ..parita Konsta Joona Kissa Koira Tuukka Valtteri Lammas' +
-        '=>Joona Koira' +
-        'Valtteri Tuukka' +
-        'Konsta Kissa' +
-        'Lammas',
+        'Esim. ..parita Konsta Joona Kissa Koira Tuukka Valtteri Lammas\n' +
+        '=>Joona Koira\n' +
+        'Valtteri Tuukka\n' +
+        'Konsta Kissa\n' +
+        'Lammas\n',
     execute(message, args) {
         if (args.length === 0) {
             message.channel.send(

@@ -1,11 +1,11 @@
 module.exports = {
     name: 'ryhmittele',
     description:
-        'Laittaa annetut nimet satunnaisiin ryhmiin. Ekana parametrinä ryhmien määrä' +
-        'Esim. ..ryhmittele 3 Konsta Joona Kissa Koira Tuukka Valtteri Lammas' +
-        '=>Joona Koira Tuukka' +
-        'Valtteri Konsta' +
-        'Lammas Kissa',
+        'Laittaa annetut nimet satunnaisiin ryhmiin. Ekana parametrinä ryhmien määrä\n' +
+        'Esim. ..ryhmittele 3 Konsta Joona Kissa Koira Tuukka Valtteri Lammas\n' +
+        '=>Joona Koira Tuukka\n' +
+        'Valtteri Konsta\n' +
+        'Lammas Kissa\n',
     execute(message, args) {
         if (args.length < 1) {
             message.channel.send(

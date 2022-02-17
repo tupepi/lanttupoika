@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { MessageEmbed } = require('discord.js');
+const { luo_embed } = require('../misc/functions');
 module.exports = {
     name: 'help',
     description: 'Listaa kaikki komennot ja niiden kuvaukset',
@@ -21,19 +22,14 @@ module.exports = {
             palautus = 'Komentoa ei löydy. Kokeile: "..help"';
         }
 
-        const embed = new MessageEmbed(message.embeds[0])
-            .setColor('#000000')
-            .setTitle('Komennot');
-
+        const komennot = [];
         for (const file of commandFiles) {
             const command = require(`./${file}`);
             const nimi = command.name.toUpperCase();
             const desc = command.description;
-            embed.addFields({
-                name: nimi,
-                value: desc,
-            });
+            komennot.push({ nimi: nimi, arvo: desc });
         }
+        const embed = luo_embed('Komennot', '', komennot, false);
         message.channel.send({ embeds: [embed] });
     },
 };

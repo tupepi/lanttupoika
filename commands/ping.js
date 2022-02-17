@@ -1,7 +1,7 @@
 module.exports = {
-  name: "ping",
-  description: "Eka testikomento",
-  execute(message, args) {
-    message.channel.send("ping pong ping pong Konsta toinen yritys!");
-  },
+    name: 'ping',
+    description: "Jos botti toimii vastaa 'pong'",
+    execute(message, args) {
+        message.channel.send('pong!');
+    },
 };

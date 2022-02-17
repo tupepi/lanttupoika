@@ -54,4 +54,32 @@ module.exports = {
             paivat: paivat,
         };
     },
+    /**
+     * Luo tyylittelyä helpottavan upotuksen annetuista arvoista
+     * title, desc ovat mitä väittävätkin
+     *
+     * fields on muotoa [{nimi:'nimi',arvo:'arvo'},{nimi:'nimi2',arvo:'arvo2'},...,{nimi:'nimiN',arvo:'arvoN'}]
+     *
+     * inline on true tai false, truella yrittää pakottaa samalle riville
+     *
+     * Palauttaa tyylittellyn viestin minkä  voi lähettää kanavalle näin:
+     *
+     *       message.channel.send({ embeds: [embed] });
+     */
+    luo_embed: (title, desc, fields, inline) => {
+        const { MessageEmbed } = require('discord.js');
+        const embed = new MessageEmbed()
+            .setColor('#000000')
+            .setTitle(title)
+            .setDescription(desc);
+
+        fields.forEach((field) => {
+            embed.addFields({
+                name: field.nimi.toString(),
+                value: field.arvo.toString(),
+                inline: inline,
+            });
+        });
+        return embed;
+    },
 };
