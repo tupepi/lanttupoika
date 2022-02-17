@@ -23,7 +23,7 @@ module.exports = {
     //Jos argumenttejä on enemmän kuin yksi niin liitetään kaikki argumentit yhteen pötköön ja tarkistetaan onko palindromi.
     if (args.length > 1) {
 
-      let koottunaYhteen = args.join('').toLowerCase();
+      let koottunaYhteen = args.join('').toLowerCase().replace(/[^a-zA-Z0-9 ]/g, '');;
       let kaikkipilkottu = koottunaYhteen.split("").reverse().join('').toLowerCase();
       if (Object.is(koottunaYhteen, kaikkipilkottu)) {
         message.channel.send("No onhan se!") 
@@ -36,7 +36,7 @@ module.exports = {
       let kirjoitettuSana = args[0].toLowerCase();
 
       //Pilkotaan annettu argumentti paloiksi -> käännetään järjestys -> Yhdistetään yksittäiset kirjaimet kokonaiseksi sanaksi -> muutetaan kaikki kirjaimet pieniksi
-      let pilkottu = kirjoitettuSana.split("").reverse().join('').toLowerCase();
+      let pilkottu = kirjoitettuSana.split("").reverse().join('').toLowerCase().replace(/[^a-zA-Z0-9 ]/g, '');
 
       //Tarkistetaan onko alkuperäinen argumentti ja käännetty argumentti identtiset
       //Jos on niin palautetaan viesti: "No onhan se!"
