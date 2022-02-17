@@ -18,6 +18,16 @@ module.exports = {
     laske_deadline: (deadline) => {
         let nyt = Date.now();
         lopputulos = deadline - nyt;
+        if (lopputulos <= 0) {
+            return {
+                millisekunnit: 0,
+                sekunnit: 0,
+                minuutit: 0,
+                tunnit: 0,
+                paivat: 0,
+            };
+        }
+
         let paivat = Math.floor(lopputulos / 86400000);
         let tunnit = Math.floor((lopputulos - paivat * 86400000) / 3600000);
         let minuutit = Math.floor(
@@ -35,6 +45,7 @@ module.exports = {
                 minuutit * 60000 -
                 sekunnit * 1000
         );
+        millisekunnit = 0 ? millisekunnit <= 0 : millisekunnit;
         return {
             millisekunnit: millisekunnit,
             sekunnit: sekunnit,
