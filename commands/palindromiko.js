@@ -14,7 +14,7 @@ module.exports = {
       //Tarkistaa onko ensimmäinen argumentti "help", jos on niin tarjoaa lisäinformaatiota komennontoiminnasta.
       if (Object.is(args[0].toLowerCase().toString(), "help")) {
         message.channel.send(`Jos annat yhden argumentin, joka ei ole "help" niin komento tarkistaa onko kyseinen argumentti palindromi.
-        \nJos annat enemmänkuin yhden argumentin (esimerkiksi kokonaisen lauseen) niin komento tarkistaa onko annettu lause/argumentit palindromi. Ethän anna erikoismerkkejä!`)
+        \nJos annat enemmänkuin yhden argumentin (esimerkiksi kokonaisen lauseen) niin komento tarkistaa onko annettu lause/argumentit palindromi.`)
         return;
 
       }
