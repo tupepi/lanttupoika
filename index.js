@@ -13,6 +13,9 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
     console.log('ready!');
+    client.channels.cache
+        .get('938721090111418458')
+        .send('Muutokset ladattu, ready to rock');
 });
 
 // Viestin prefix, joihin botti reagoi
