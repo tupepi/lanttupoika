@@ -69,7 +69,7 @@ module.exports = {
     luo_embed: (title, desc, fields, inline) => {
         const { MessageEmbed } = require('discord.js');
         const embed = new MessageEmbed()
-            .setColor('#000000')
+            .setColor('#FFFFFF')
             .setTitle(title)
             .setDescription(desc);
 
