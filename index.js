@@ -16,6 +16,7 @@ client.once('ready', () => {
     client.channels.cache
         .get('938721090111418458')
         .send('Muutokset ladattu, ready to rock');
+    client.user.setActivity('for ..help', { type: 'WATCHING' });
 });
 
 // Viestin prefix, joihin botti reagoi
