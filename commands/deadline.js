@@ -1,3 +1,5 @@
+const { luo_embed } = require('../misc/functions');
+
 const laske_deadline = require('../misc/functions').laske_deadline;
 module.exports = {
     name: 'deadline',
@@ -11,8 +13,18 @@ module.exports = {
         let minuutit = aikaa.minuutit;
         let sekunnit = aikaa.sekunnit;
         let millisekunnit = aikaa.millisekunnit;
-        message.channel.send(
-            `Päivät: ${paivat},\nTunnit: ${tunnit},\nMinuutit: ${minuutit},\nSekuntit: ${sekunnit},\nMillisekuntit: ${millisekunnit}.`
-        );
+
+        //   message.channel.send(
+        //     `Päivät: ${paivat},\nTunnit: ${tunnit},\nMinuutit: ${minuutit},\nSekuntit: ${sekunnit},\nMillisekuntit: ${millisekunnit}.`
+        //);
+
+        embed = luo_embed('Deadline', '', [
+            { nimi: 'Päivät', arvo: paivat },
+            { nimi: 'Tunnit', arvo: tunnit },
+            { nimi: 'Minuutit', arvo: minuutit },
+            { nimi: 'Sekuntit', arvo: sekunnit },
+            { nimi: 'Millisekuntit', arvo: millisekunnit },
+        ]);
+        message.channel.send({ embeds: [embed] });
     },
 };
