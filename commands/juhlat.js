@@ -9,7 +9,7 @@ module.exports = {
         const joku = new Date(2022, 1, 17);
         const rieha = new Date(2022, 2, 17);
         const metro = new Date(2022, 3, 21);
-        const vappuviikko = new Date(2022, 3, 30);
+        const vappuviikko = new Date(2022, 3, 50);
         const pvmt = [
             { nimi: 'joku', d: joku },
             { nimi: 'Rinne Rieha', d: rieha },
@@ -27,13 +27,8 @@ module.exports = {
 
             const deadlineEmbed = luo_embed(
                 pvmt[i].nimi,
-                'Aikaa on enää jäljellä:',
-                [
-                    { nimi: 'Päiviä', arvo: paivat },
-                    { nimi: 'Tunteja', arvo: tunnit },
-                    { nimi: 'Minuutteja', arvo: minuutit },
-                    { nimi: 'Sekunteja', arvo: sekunnit },
-                ],
+                'Päiviä on enää jäljellä:',
+                [{ nimi: 'Päiviä', arvo: paivat }],
                 true
             );
             message.channel.send({ embeds: [deadlineEmbed] });
