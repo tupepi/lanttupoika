@@ -26,9 +26,14 @@ module.exports = {
             const tunnit = aikaa.tunnit;
             const minuutit = aikaa.minuutit;
             const sekunnit = aikaa.sekunnit;
-            if (paivat == 0 && tunnit == 0 && minuutit == 0 && sekunnit == 0)
+            if (
+                paivat === 0 &&
+                tunnit === 0 &&
+                minuutit === 0 &&
+                sekunnit === 0
+            )
                 continue;
-            if (paivat < 1) {
+            if (paivat < 1 || paivat === 1) {
                 deadlineEmbed = luo_embed(
                     pvmt[i].nimi,
                     'Nyt ollaan lähellä! Aikaa tapahtumaan:',
