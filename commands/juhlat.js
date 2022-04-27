@@ -9,7 +9,7 @@ module.exports = {
         const joku = new Date(2022, 1, 17);
         const rieha = new Date(2022, 2, 17);
         const metro = new Date(2022, 3, 21);
-        const vappuviikko = new Date(2022, 3, 30);
+        //const vappuviikko = new Date(2022, 3, 30);
         const rastikilpailu = new Date(2022, 3, 27);
         const kolmiot = new Date(2022, 3, 28);
         const tuparit = new Date(2022, 3, 29);
@@ -19,7 +19,7 @@ module.exports = {
             { nimi: 'joku', d: joku },
             { nimi: 'Rinne Rieha', d: rieha },
             { nimi: 'Jyväsmetro', d: metro },
-            { nimi: 'Vappuviikko', d: vappuviikko },
+            //{ nimi: 'Vappuviikko', d: vappuviikko },
             { nimi: 'rastikilpailu', d: rastikilpailu },
             { nimi: 'kolmiot', d: kolmiot },
             { nimi: 'tuparit', d: tuparit },
