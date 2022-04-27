@@ -40,7 +40,7 @@ module.exports = {
                 sekunnit === 0
             )
                 continue;
-            if (paivat < 1 || paivat === 1) {
+            if (paivat < 1) {
                 deadlineEmbed = luo_embed(
                     pvmt[i].nimi,
                     'Nyt ollaan lähellä! Aikaa tapahtumaan:',
