@@ -10,11 +10,21 @@ module.exports = {
         const rieha = new Date(2022, 2, 17);
         const metro = new Date(2022, 3, 21);
         const vappuviikko = new Date(2022, 3, 30);
+        const rastikilpailu = new Date(2022, 3, 27);
+        const kolmiot = new Date(2022, 3, 28);
+        const tuparit = new Date(2022, 3, 29);
+        const ilokividancenight = new Date(2022, 3, 30);
+        const harju = new Date (2022, 4, 1 );
         const pvmt = [
             { nimi: 'joku', d: joku },
             { nimi: 'Rinne Rieha', d: rieha },
             { nimi: 'Jyväsmetro', d: metro },
             { nimi: 'Vappuviikko', d: vappuviikko },
+            { nimi: 'rastikilpailu', d: rastikilpailu },
+            { nimi: 'kolmiot', d: kolmiot },
+            { nimi: 'tuparit', d: tuparit },
+            { nimi: 'ilokividancenight', d: ilokividancenight },
+            { nimi: 'harju', d: harju },
         ];
         for (var i = 0; i < pvmt.length; i++) {
             const aikaa = laske_deadline(pvmt[i].d);
