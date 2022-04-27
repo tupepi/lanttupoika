@@ -7,18 +7,25 @@ module.exports = {
     async execute(message, args) {
         // Testataan että mennyt päivämäärä jätetään palauttamatta
         const joku = new Date(2022, 1, 17);
-
-        // Tulevat tapahtumat:
-        const rieha = new Date(2022, 2, 17, 14, 00, 00);
-        const metro = new Date(2022, 3, 19, 14, 00, 00);
-        const pikkulaskiainen = new Date(2022, 3, 7, 13, 00, 00);
-        const vappuviikko = new Date(2022, 3, 25);
+        const rieha = new Date(2022, 2, 17);
+        const metro = new Date(2022, 3, 21);
+        //const vappuviikko = new Date(2022, 3, 30);
+        const rastikilpailu = new Date(2022, 3, 27);
+        const kolmiot = new Date(2022, 3, 28);
+        const tuparit = new Date(2022, 3, 29);
+        const ilokividancenight = new Date(2022, 3, 30);
+        const harju = new Date(2022, 4, 1);
         const pvmt = [
             { nimi: 'joku', d: joku },
             { nimi: 'Rinne Rieha', d: rieha },
             { nimi: 'Jyväsmetro', d: metro },
-            { nimi: 'Vappuviikko', d: vappuviikko },
-            { nimi: 'Pikkulaskiainen', d: pikkulaskiainen },
+
+            //{ nimi: 'Vappuviikko', d: vappuviikko },
+            { nimi: 'rastikilpailu', d: rastikilpailu },
+            { nimi: 'kolmiot', d: kolmiot },
+            { nimi: 'tuparit', d: tuparit },
+            { nimi: 'ilokividancenight', d: ilokividancenight },
+            { nimi: 'harju', d: harju },
         ];
         for (var i = 0; i < pvmt.length; i++) {
             const aikaa = laske_deadline(pvmt[i].d);
