@@ -67,8 +67,8 @@ module.exports = {
      *       message.channel.send({ embeds: [embed] });
      */
     luo_embed: (title, desc, fields, inline) => {
-        const { MessageEmbed } = require('discord.js');
-        const embed = new MessageEmbed()
+        const { EmbedBuilder } = require('discord.js');
+        const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(title)
             .setDescription(desc);
