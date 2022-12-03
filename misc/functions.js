@@ -70,8 +70,15 @@ module.exports = {
         const { EmbedBuilder } = require('discord.js');
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle(title)
-            .setDescription(desc);
+        
+        if (title) {
+            embed.setTitle(title)
+        }
+
+        if (desc) {
+            embed.setDescription(desc)
+        }
+
 
         fields.forEach((field) => {
             embed.addFields({
