@@ -3,6 +3,7 @@ const fs = require('fs');
 const client = new Discord.Client({ intents: [  
     Discord.GatewayIntentBits.Guilds,
     Discord.GatewayIntentBits.GuildMessages,
+    Discord.GatewayIntentBits.MessageContent,
 ] });
 
 client.commands = new Discord.Collection();
@@ -27,6 +28,7 @@ const prefix = '..';
 // "message" on deprekoitu, oikea tapa kai "messageCreate"
 client.on('messageCreate', (message) => {
     // Viestin pitää alkaa prefixillä, ja viestin lähettäjä ei saa olla botti
+    console.log(message)
     if (!message.content.startsWith(prefix) || message.author.bot) return;
     //  args esim. jos viesti on "..kissa koira kala" => ['kissa','koira','kala']
     const args = message.content.slice(prefix.length).split(/ +/);
