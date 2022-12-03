@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const fs = require('fs');
-const client = new Discord.Client({ intents: [
-        GatewayIntentBits.Guilds,
-        GatewayIntentBits.GuildMessages,
-  ] });
+const client = new Discord.Client({ intents: [  
+    Discord.GatewayIntentBits.Guilds,
+    Discord.GatewayIntentBits.GuildMessages,
+] });
 
 client.commands = new Discord.Collection();
 const commandFiles = fs
