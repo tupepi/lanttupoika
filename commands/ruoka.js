@@ -77,15 +77,24 @@ module.exports = {
 
         let parser = new Parser();
         (async () => {
-            let feed = await parser.parseURL(url);
-            let ravintolan_nimi = feed.title;
-            let ruokalista = feed.items[0].content.replaceAll('<br>', '');
-            if (ruokalista.length == 0) {
-                ruokalista = 'Ei ruokalistaa saatavilla';
+            try {
+                let feed = await parser.parseURL(url);
+                let ravintolan_nimi = feed.title;
+                let ruokalista = feed.items[0].content.replaceAll('<br>', '');
+                if (ruokalista.length == 0) {
+                    ruokalista = 'Ei ruokalistaa saatavilla';
+                }
+                message.channel.send(
+                    '**' + ravintolan_nimi + '**' + '\n\n' + ruokalista
+                );
+            } 
+            catch (err) {
+                message.channel.send(
+                    err
+                );
             }
-            message.channel.send(
-                '**' + ravintolan_nimi + '**' + '\n\n' + ruokalista
-            );
+
+            
         })();
     },
 };
